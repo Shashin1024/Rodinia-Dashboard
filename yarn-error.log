@@ -1,0 +1,83 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add jsonwebtoken
+
+PATH: 
+  C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;C:\xampp\php;C:\Users\HP\anaconda3;C:\Program Files\Git\cmd;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Users\HP\anaconda3\Library\mingw-w64\bin;C:\Users\HP\anaconda3\Library\usr\bin;C:\Users\HP\anaconda3\Library\bin;C:\Users\HP\anaconda3\Scripts;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;C:\flutter\bin;C:\tools\dart-sdk\bin;C:\Users\HP\AppData\Roaming\Pub\Cache\bin;C:\Program Files\heroku\bin;C:\Users\HP\AppData\Roaming\Composer\vendor\bin;C:\Users\HP\AppData\Local\GitHubDesktop\bin;C:\Users\HP\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\Solidity Projects\dashboard\tokyo-free-white-nextjs-admin-dashboard\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node'
+
+npm manifest: 
+  {
+    "name": "tokyo-free-white-nextjs-admin-dashboard",
+    "version": "1.0.0",
+    "title": "Tokyo Free White NextJS Typescript Admin Dashboard",
+    "description": "High performance React template built with lots of powerful MUI (Material-UI) components across multiple product niches for fast & perfect apps development processes",
+    "author": {
+      "name": "BloomUI.com",
+      "url": "https://bloomui.com"
+    },
+    "private": false,
+    "dependencies": {
+      "@emotion/cache": "11.7.1",
+      "@emotion/react": "11.9.0",
+      "@emotion/server": "11.4.0",
+      "@emotion/styled": "11.8.1",
+      "@mui/core": "5.0.0-alpha.54",
+      "@mui/icons-material": "5.8.2",
+      "@mui/lab": "5.0.0-alpha.84",
+      "@mui/material": "5.8.2",
+      "@mui/styles": "5.8.0",
+      "@types/node": "17.0.39",
+      "@types/nprogress": "0.2.0",
+      "@types/numeral": "2.0.2",
+      "@types/react": "17.0.40",
+      "@types/react-dom": "17.0.13",
+      "apexcharts": "3.35.3",
+      "clsx": "1.1.1",
+      "context-api": "0.0.2",
+      "date-fns": "2.28.0",
+      "next": "12.1.6",
+      "next-auth-client": "^1.5.0",
+      "next-images": "1.8.4",
+      "nprogress": "0.2.0",
+      "numeral": "2.0.6",
+      "react": "17.0.2",
+      "react-apexcharts": "1.4.0",
+      "react-custom-scrollbars-2": "4.4.0",
+      "react-dom": "17.0.2",
+      "typescript": "4.7.3"
+    },
+    "scripts": {
+      "dev": "next",
+      "build": "next build",
+      "start": "next start",
+      "export": "next export",
+      "lint": "next lint",
+      "lint-fix": "next lint --fix",
+      "format": "prettier --write \"./**/*.{ts,tsx,js,jsx,json}\" --config ./.prettierrc"
+    },
+    "devDependencies": {
+      "eslint": "8.17.0",
+      "eslint-config-next": "12.1.6",
+      "eslint-config-prettier": "8.5.0",
+      "eslint-plugin-prettier": "4.0.0",
+      "next-transpile-modules": "9.0.0",
+      "prettier": "2.6.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
